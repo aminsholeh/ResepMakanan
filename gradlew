@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#!/usr/bin/env bash
 
 ##############################################################################
 ##
@@ -37,6 +38,7 @@ case "`uname`" in
   Darwin* )
     darwin=true
     ;;
+    
   MINGW* )
     msys=true
     ;;
